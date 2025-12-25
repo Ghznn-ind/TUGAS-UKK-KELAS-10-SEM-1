@@ -7,7 +7,7 @@
 body {
   font-family: "Segoe UI";
   background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  color: #fff;
+  color: white;
   overflow-x: hidden;
 }
 
@@ -22,14 +22,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  border-bottom: 2px solid #00f3ff;
+  border-bottom: 2px solid cyan;
   box-shadow: none;
 }
 
 .logo {
   font-size: 28.8px;
   font-weight: bold;
-  color: #00f3ff;
+  color: cyan;
   text-shadow: none;
   letter-spacing: 2px;
 }
@@ -41,7 +41,7 @@ nav {
 }
 
 .link-nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s;
@@ -50,7 +50,7 @@ nav {
 }
 
 .link-nav a:hover {
-  color: #00f3ff;
+  color: cyan;
 }
 
 .bacground-home {
@@ -95,21 +95,21 @@ nav {
 .home h1 {
   font-size: 64px;
   margin-bottom: 16px;
-  color: #00f3ff;
+  color: cyan;
   text-shadow: none;
 }
 
 .home p {
   font-size: 20.8px;
   margin-bottom: 32px;
-  color: #ccc;
+  color: silver;
 }
 
 .button-mulai {
   display: inline-block;
   padding: 16px 48px;
   background: linear-gradient(45deg, blueviolet);
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   border-radius: 50px;
@@ -133,16 +133,8 @@ nav {
   text-align: center;
   font-size: 48px;
   margin-bottom: 48px;
-  color: #00f3ff;
+  color: cyan;
   text-shadow: none;
-}
-
-.grid-service {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 32px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .card-service {
@@ -162,7 +154,7 @@ nav {
 
 .card-service:hover {
   transform: translateY(-10px);
-  border-color: #00f3ff;
+  border-color: cyan;
   box-shadow: none;
 }
 
@@ -178,11 +170,11 @@ nav {
 .card-service h3 {
   font-size: 28.8px;
   margin-bottom: 2px;
-  color: #00f3ff;
+  color: cyan;
 }
 
 .card-service p {
-  color: #ccc;
+  color: silver;
   line-height: 1.6;
 }
 
@@ -217,7 +209,7 @@ nav {
 
 .card-product:hover {
   transform: scale(1.05);
-  border-color: #ff00ff;
+  border-color: magenta;
   box-shadow: none;
 }
 
@@ -238,12 +230,12 @@ nav {
 .info-product h3 {
   font-size: 24px;
   margin-bottom: 8px;
-  color: #ff00ff;
+  color: magenta;
 }
 
 .info-product .harga {
   font-size: 28.8px;
-  color: #00f3ff;
+  color: cyan;
   font-weight: bold;
   margin: 16px 0;
 }
@@ -254,7 +246,7 @@ nav {
   background: rgba(0, 255, 0, 0.2);
   border-radius: 20px;
   font-size: 14.4px;
-  color: #0f0;
+  color: lime;
 }
 
 .contact {
@@ -287,7 +279,7 @@ nav {
 }
 
 .item-contact h4 {
-  color: #00f3ff;
+  color: cyan;
   margin-bottom: 8px;
   font-size: 20.8px;
 }
@@ -295,7 +287,7 @@ nav {
 footer {
   background: rgba(15, 12, 41, 0.95);
   padding: 48px 5%;
-  border-top: 2px solid #00f3ff;
+  border-top: 2px solid cyan;
 }
 
 .konten-footer {
@@ -307,7 +299,7 @@ footer {
 }
 
 .section-footer h3 {
-  color: #00f3ff;
+  color: cyan;
   margin-bottom: 16px;
   font-size: 24px;
 }
@@ -321,13 +313,13 @@ footer {
 }
 
 .section-footer a {
-  color: #ccc;
+  color: silver;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .section-footer a:hover {
-  color: #00f3ff;
+  color: cyan;
 }
 
 .footer-bawah {
@@ -335,5 +327,6 @@ footer {
   margin-top: 32px;
   padding-top: 32px;
   border-top: 1px solid rgba(0, 243, 255, 0.3);
-  color: #888;
+  color: silver;
 }
+
